@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo useradd $1
-echo $1:$2|chpasswd
+whois "$1" | awk -F': ' '/^(Registrant|Admin|Tech) / {print $1 "," $2}' | sed 's/State\/Province/State\/Province/' > "$1.csv"
